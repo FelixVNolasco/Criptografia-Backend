@@ -6,4 +6,6 @@ app.listen(port || 5000, () => {
   console.log("Backend Server is running!");
 });
 
-console.log(`Listening in the PORT ${port}`);
+app.get("/", (req, res) => {
+  res.send("HOME");
+});

@@ -24,8 +24,4 @@ app.use(express.json());
 app.use("/api/auth", authRouter);
 app.use("/api/rsa", rsaRouter);
 
-app.get("/", (req, res) => {
-  res.send("HOME");
-});
-
 module.exports = app;
