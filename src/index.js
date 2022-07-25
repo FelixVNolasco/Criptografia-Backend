@@ -27,3 +27,8 @@ app.use("/api/rsa", rsaRouter);
 app.listen(process.env.PORT || 5000, () => {
   console.log("Backend Server is running!");
 });
+
+
+app.get("/", (req, res) => {
+    res.send("HOME");
+});
