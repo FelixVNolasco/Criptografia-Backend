@@ -4,6 +4,7 @@ var fs = require("fs");
 
 function GeneratePairKeys ()
 {
+    //DELETE THIS CODE IF IT'S NO LONGER NEEDED
     var key = new rsa().generateKeyPair();
 
     var publicKey = key.exportKey("public");
