@@ -1,4 +1,4 @@
-
+//PUT THIS CODE IN A SEPARATE GIST AS AN EXAMPLE
 var rsa = require("node-rsa");
 var fs = require("fs");
 
